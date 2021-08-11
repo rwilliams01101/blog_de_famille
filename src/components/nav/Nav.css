@@ -1,0 +1,20 @@
+.navbar {
+    margin-bottom: 1em;
+}
+
+.navbar-main-font {
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-light {
+    background-color: rgb(229, 238, 233) !important;
+}
+
+.tighten-a {
+    margin-right: -3px;
+}
+
+.tighten-c {
+    margin-right: -5px;
+}

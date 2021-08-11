@@ -1,0 +1,9 @@
+.read-more {
+    color: green;
+    text-decoration: none;
+}
+
+.read-more:hover {
+  color: black;
+  text-decoration: underline;
+}

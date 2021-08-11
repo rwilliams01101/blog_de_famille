@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .App {
+    border-radius: 1em;
+    box-shadow: 0 0 0 7em rgba(229, 238, 233, 0.74);
+    margin: 4em;
+    padding:1em;
+  }
+}
+
+body {
+  background-image: url('../../assets/images/background_short.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: 100vh;
+  background-attachment: fixed;
+}
