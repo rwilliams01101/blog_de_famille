@@ -7,6 +7,7 @@ function About() {
         <>
             <h2>About</h2>
             <Image src={underConstruction} classes="img img-lg-ctr" altText="Under Construction, coming Christmas 2002."></Image>
+            <div className="hr-line"></div>
         </>
     ) 
   }

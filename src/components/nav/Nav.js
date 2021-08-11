@@ -24,15 +24,15 @@ function Nav () {
                         <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={Collapse} to="/blog_de_famille">Home</Link>
+                                <Link className="nav-link" onClick={Collapse} to="/blog_de_famille">Accueil</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" onClick={Collapse} to="/about">About</Link>
+                                <Link className="nav-link" onClick={Collapse} to="/about">À Propos De</Link>
                             </li>
                         </ul>
                         <span className="navbar-text">
                             <a className="nav-link" href="mailto:rwilliams01101@gmail.com?subject=Just%20Saying%20Hi&amp;body=Let us know what's new with you! If you want to come visit us in Norway, just let us know when and you can stay with us. We can't wait to hear from you! - Camille and Alan">
-                                Email Us                      
+                                Envoyez-Nous un Email                      
                             </a>
                         </span>
                         </div>
