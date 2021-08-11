@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/blog_de_famille/static/css/main.d8ce7d93.chunk.css",
-    "main.js": "/blog_de_famille/static/js/main.86c517f8.chunk.js",
-    "main.js.map": "/blog_de_famille/static/js/main.86c517f8.chunk.js.map",
+    "main.js": "/blog_de_famille/static/js/main.882c6bf1.chunk.js",
+    "main.js.map": "/blog_de_famille/static/js/main.882c6bf1.chunk.js.map",
     "runtime-main.js": "/blog_de_famille/static/js/runtime-main.d81c1f96.js",
     "runtime-main.js.map": "/blog_de_famille/static/js/runtime-main.d81c1f96.js.map",
     "static/js/2.bedebb46.chunk.js": "/blog_de_famille/static/js/2.bedebb46.chunk.js",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.d81c1f96.js",
     "static/js/2.bedebb46.chunk.js",
     "static/css/main.d8ce7d93.chunk.css",
-    "static/js/main.86c517f8.chunk.js"
+    "static/js/main.882c6bf1.chunk.js"
   ]
 }
