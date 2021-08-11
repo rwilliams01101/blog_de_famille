@@ -1,6 +1,6 @@
 {
-  "homepage": "http://rwilliams01101.github.io/family_blog",
-  "name": "familyblog",
+  "homepage": "http://rwilliams01101.github.io/blog_de_famille",
+  "name": "blogdefamille",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
