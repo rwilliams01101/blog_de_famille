@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Image from '../components/image/Image'
 import Text from '../components/text/Text'
 import { Blogpost_Values } from '../utils/AppConstants'
@@ -5,6 +6,10 @@ import './Blogpost.css'
 
 
 function Blogpost() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])    
 
     // I know this isn't good, but building an SPA on gitpages made me cheat a bit
     const value = localStorage.getItem('blogPostNumber');
@@ -29,11 +34,10 @@ function Blogpost() {
     return (
         <>
              {blogEntries.map((value, i) => (
-                <div key={blogEntries[i].id}>
+                <div className="detail-wrapper" key={blogEntries[i].id}>
                     <Image src={blogEntries[i].src} classes={blogEntries[i].classes} altText={blogEntries[i].altText}></Image>
                     <Text classes="tight-caption" content={blogEntries[i].altText}></Text>
                     <Text classes="blog-entry" content={blogEntries[i].blogEntry}></Text>
-                    <div className="hr-line"></div>
                 </div>
             ))}
         </>

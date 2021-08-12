@@ -9,9 +9,9 @@ import imageEight from '../assets/images/Arrival_7.jpg'
 import imageNine from '../assets/images/Arrival_8.jpg'
 // import imageTen from '../assets/images/Kvanndalfoss_1.jpg'
 import imageEleven from '../assets/images/Amdal_1.jpg'
-import imageTwelve from '../assets/images/Kjerag_1.jpg'
+// import imageTwelve from '../assets/images/Kjerag_1.jpg'
 import imageThirteen from '../assets/images/Preikestolen_1.jpg'
-import imageFourteen from '../assets/images/Sauda_1.jpg'
+// import imageFourteen from '../assets/images/Sauda_1.jpg'
 import imageFifteen from '../assets/images/Sauda_2.jpg'
 import imageSixteen from '../assets/images/Sauda_3.jpg'
 import imageSeventeen from '../assets/images/Sauda_4.jpg'
@@ -26,15 +26,31 @@ import imageTwentyFive from '../assets/images/Sauda_12.jpg'
 import imageTwentySix from '../assets/images/Sauda_13.jpg'
 import imageTwentySeven from '../assets/images/Sauda_14.jpg'
 import imageTwentyEight from '../assets/images/Sauda_15.jpg'
+import imageTwentyNine from '../assets/images/Amdal_2.JPEG'
+import imageThirty from '../assets/images/Amdal_3.jpg'
+import imageThirtyOne from '../assets/images/Amdal_4.JPEG'
+import imageThirtyTwo from '../assets/images/Amdal_5.jpg'
+import imageThirtyThree from '../assets/images/Amdal_6.jpg'
+import imageThirtyFour from '../assets/images/Preikestolen_2.jpeg'
+import imageThirtyFive from '../assets/images/Preikestolen_3.JPG'
+import imageThirtySix from '../assets/images/Preikestolen_4.jpeg'
+import imageThirtySeven from '../assets/images/Preikestolen_5.JPG'
+import imageThirtyEight from '../assets/images/Preikestolen_6.jpeg'
+import imageThirtyNine from '../assets/images/Preikestolen_7.JPG'
+import imageForty from '../assets/images/Preikestolen_8.JPG'
+import imageFortyOne from '../assets/images/Preikestolen_9.JPG'
+import imageFortyTwo from '../assets/images/Preikestolen_10.JPG'
+import imageFortyThree from '../assets/images/Preikestolen_12.JPG'
+import imageFortyFour from '../assets/images/Preikestolen_13.JPG'
 
 // This is a placeholder until the database is built.
 export const Preview_Values = [
     { src: `${imageOne}`, classes: "img img-lg-ctr", altText: "Quitter la France pour la Norvège", id: "1", blogEntry: "Après deux beaux mois passés en France, les cloches de Norvège ont sonné et il était temps de dire au revoir à Christian et Annick. Nous avons passé notre dernière nuit à Saintes à la brasserie locale et au restaurant Le Batia, avons parlé de voyager et de profiter de notre temps ensemble."},
     { src: `${imageTwentyEight}`, classes: "img img-lg-ctr", altText: "La ville de Sauda", id: "2", blogEntry: "Le nom Sauda vient du vieux norrois “Sauðar”, la forme plurielle de sauðr qui signifie “source” ou “issue d'eau”. Sauda appartient au district de Ryfylke et, à plus grande échelle, à la région de Rogaland (équivalent à un état aux États-Unis ou à une région en France). Sauda compte environ 4 500 habitants." },
     { src: `${imageEleven}`, classes: "img img-lg-ctr", altText: "Hytte solitaire près d'Amdal", id: "3", blogEntry: "Nous avons fait une randonnée avec nos voisins, Cédrik, Sophie et leur fille Anna. Nous sommes tombés sur ces superbes hyttas (cabines) à la fin de notre randonnée. Nous avons décidé à l'unanimité d'en acheter un dès que possible." },
-    { src: `${imageTwelve}`, classes: "img img-lg-ctr", altText: "Alan sur le chemin du retour de Kjerag", id: "4", blogEntry: "Nous avons eu un temps magnifique pendant toute la randonnée, jusqu'à notre arrivée à Kjeragbolten, puis tout s'est embué." },
+    // { src: `${imageTwelve}`, classes: "img img-lg-ctr", altText: "Alan sur le chemin du retour de Kjerag", id: "4", blogEntry: "Nous avons eu un temps magnifique pendant toute la randonnée, jusqu'à notre arrivée à Kjeragbolten, puis tout s'est embué." },
     { src: `${imageThirteen}`, classes: "img img-lg-ctr", altText: "La vue près de Preikestolen", id: "5", blogEntry: "Après avoir terminé la randonnée principale, nous avons continué à grimper. Nous avons trouvé des vues impressionnantes et avions toute la place pour nous seuls." },
-    { src: `${imageFourteen}`, classes: "img img-lg-ctr", altText: "Faire du vélo à Sauda", id: "6", blogEntry: "Partout où vous allez, c'est en montée. Cependant, cela en vaut toujours la peine. C'était notre premier trajet à travers Sauda et à mi-chemin de notre trajet, nous nous sommes détendus au pied d'une cascade." },
+    // { src: `${imageFourteen}`, classes: "img img-lg-ctr", altText: "Faire du vélo à Sauda", id: "6", blogEntry: "Partout où vous allez, c'est en montée. Cependant, cela en vaut toujours la peine. C'était notre premier trajet à travers Sauda et à mi-chemin de notre trajet, nous nous sommes détendus au pied d'une cascade." },
 ];
 
 export const Blogpost_Values = [
@@ -63,4 +79,25 @@ export const Blogpost_Values = [
   { src: `${imageTwentyFive}`, classes: "img img-lg-ctr", id: "19", previewValue: "2"},
   { src: `${imageTwentySix}`, classes: "img img-lg-ctr", id: "20", previewValue: "2"},
   { src: `${imageTwentySeven}`, classes: "img img-lg-ctr", id: "21", previewValue: "2"},
+
+    // Preview 3
+    { src: `${imageThirty}`, classes: "img img-lg-ctr", altText: "Hytte (plur. Hytta) signifie cabine en norvégien.", id: "21", blogEntry: "Ici à Sauda, et apparemment dans la majeure partie de la Norvège, de nombreuses personnes possèdent une cabane, où elles se rendent le week-end ou pour leurs vacances. Les cabanes sont généralement situées en dehors des villes, dans des zones plus calmes et pittoresques. Certaines sont entièrement équipées et ressemblent beaucoup à une maison ordinaire, bien que la plupart soient rustiques, certaines sans électricité ni eau courante.", previewValue: "3"},
+    { src: `${imageThirtyOne}`, classes: "img img-lg-ctr", id: "22", blogEntry: "Les vallées de Saudasjorden regorgent de ces petites cabanes en bois où les gens se rendent pour faire une pause dans leur quotidien, profiter du coin et du calme de la montagne. Il n'y a pas toujours de route qui y mène, vous devrez donc peut-être faire de la randonnée ou parfois du bateau pour vous rendre à votre hytte. Nous avons totalement la fièvre hytta et avons hâte de profiter de cette tradition nous-mêmes.", previewValue: "3"},
+    { src: `${imageTwentyNine}`, classes: "img img-lg-ctr", id: "23", previewValue: "3"},
+    { src: `${imageThirtyTwo}`, classes: "img img-lg-ctr", id: "24", previewValue: "3"},
+    { src: `${imageThirtyThree}`, classes: "img img-lg-ctr", id: "25", previewValue: "3"},
+  
+    // Preview 5
+    { src: `${imageThirtyFour}`, classes: "img img-lg-ctr", id: "26", blogEntry: "Preikestolen est l'une des randonnées les plus célèbres de Norvège. Preikestolen, qui signifie « la chaise du prédicateur », est une surface plane au sommet d'une immense falaise de granit formée par un glacier il y a environ 10 000 ans. C'était l'une des premières destinations que nous avons trouvées en recherchant des randonnées en Norvège. Donc, quand nous avons dû aller à Stavanger pour nos papiers de résidence, c'était une décision facile de rester un peu plus longtemps et de marcher jusqu'à Preikestolen. Sans voiture, nous avons dû réserver un aller-retour en bus de Stavanger au début du sentier. Bien qu'un peu cher, c'était vraiment pratique. Nous avons quitté notre Airbnb vers 9h30 du matin, nous avons trouvé cette merveilleuse boulangerie appelée Kanelsnurren (nous y sommes allés 3 fois maintenant…) et espérons dans le bus. Le trajet n'a duré que 45 minutes et nous avons pris la piste vers 11 heures.", previewValue: "5"},
+    { src: `${imageFortyTwo}`, classes: "img img-lg-ctr", id: "27", blogEntry: "La montée était magnifique. Nous avions un peu de compagnie mais le covid a ses avantages et nous n'avons certainement pas connu les foules décrites en ligne. Après une bonne heure d'entraînement en montée à travers la forêt, les champs de roches et les marais, nous sommes soudainement arrivés dans une très grande vallée et avons réalisé pour la première fois à quel point le fjord était profond.", previewValue: "5"},
+    { src: `${imageThirtyFive}`, classes: "img img-lg-ctr", id: "28", previewValue: "5"},
+    { src: `${imageThirtySix}`, classes: "img img-lg-ctr", id: "29", previewValue: "5"},
+    { src: `${imageThirtySeven}`, classes: "img img-lg-ctr", id: "30", previewValue: "5"},
+    { src: `${imageThirtyEight}`, classes: "img img-lg-ctr", id: "31", previewValue: "5"},
+    { src: `${imageThirtyNine}`, classes: "img img-lg-ctr", id: "32", previewValue: "5"},
+    { src: `${imageForty}`, classes: "img img-lg-ctr", id: "33", previewValue: "5"},
+    { src: `${imageFortyOne}`, classes: "img img-lg-ctr", id: "34", previewValue: "5"},
+    { src: `${imageFortyTwo}`, classes: "img img-lg-ctr", id: "35", previewValue: "5"},
+    { src: `${imageFortyThree}`, classes: "img img-lg-ctr", id: "36", previewValue: "5"},
+    { src: `${imageFortyFour}`, classes: "img img-lg-ctr", id: "37", previewValue: "5"},
 ]
