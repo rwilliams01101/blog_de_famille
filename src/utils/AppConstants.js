@@ -42,6 +42,11 @@ import imageFortyOne from '../assets/images/Preikestolen_9.JPG'
 import imageFortyTwo from '../assets/images/Preikestolen_10.JPG'
 import imageFortyThree from '../assets/images/Preikestolen_12.JPG'
 import imageFortyFour from '../assets/images/Preikestolen_13.JPG'
+import imageFortyFive from '../assets/images/Hovlandsnuten.jpg'
+import imageFortySix from '../assets/images/Hovlandsnuten.jpg'
+import imageFortySeven from '../assets/images/Jonestølen_1.jpg'
+import imageFortyEight from '../assets/images/Jonestølen_2.jpg'
+import imageFortyNine from '../assets/images/Jonestølen_3.jpg'
 
 // This is a placeholder until the database is built.
 export const Preview_Values = [
@@ -51,6 +56,8 @@ export const Preview_Values = [
     // { src: `${imageTwelve}`, classes: "img img-lg-ctr", altText: "Alan sur le chemin du retour de Kjerag", id: "4", blogEntry: "Nous avons eu un temps magnifique pendant toute la randonnée, jusqu'à notre arrivée à Kjeragbolten, puis tout s'est embué." },
     { src: `${imageThirteen}`, classes: "img img-lg-ctr", altText: "La vue près de Preikestolen", id: "5", blogEntry: "Après avoir terminé la randonnée principale, nous avons continué à grimper. Nous avons trouvé des vues impressionnantes et avions toute la place pour nous seuls." },
     // { src: `${imageFourteen}`, classes: "img img-lg-ctr", altText: "Faire du vélo à Sauda", id: "6", blogEntry: "Partout où vous allez, c'est en montée. Cependant, cela en vaut toujours la peine. C'était notre premier trajet à travers Sauda et à mi-chemin de notre trajet, nous nous sommes détendus au pied d'une cascade." },
+    { src: `${imageFortyFive}`, classes: "img img-lg-ctr", publishDate: "16.08.2021", altText: "Marquage du sentier vers Hovlandsnuten", id: "7", blogEntry: "J'ai récemment commencé à travailler avec la Sauda Ferie og Fritid et c'est plutôt bien. Mon « travail » consiste à faire de la randonnée, à boire du café et à manger des myrtilles. De temps en temps, je peins des trucs.", writtenBy:"Alan" },
+    { src: `${imageFortySeven}`, classes: "img img-lg-ctr", publishDate: "14.08.2021", altText: "Une belle trouvaille - Jonestølen", id: "8", blogEntry: "Je suis venu ici pour mon premier projet avec Ferie og Fritid et j'ai tout de suite su que je passerais beaucoup de temps ici. Une cascade tombe en cascade à travers les collines, gardant les bleuets heureux et se termine dans un lac vierge dans la vallée en contrebas.", writtenBy:"Alan" },
 ];
 
 export const Blogpost_Values = [
@@ -100,4 +107,12 @@ export const Blogpost_Values = [
     { src: `${imageFortyTwo}`, classes: "img img-lg-ctr", id: "35", previewValue: "5"},
     { src: `${imageFortyThree}`, classes: "img img-lg-ctr", id: "36", previewValue: "5"},
     { src: `${imageFortyFour}`, classes: "img img-lg-ctr", id: "37", previewValue: "5"},
+
+     // Preview 7
+    { src: `${imageFortySix}`, classes: "img img-lg-ctr", id: "38", blogEntry: "Depuis notre arrivée en Norvège, nous avons exploré toutes les occasions que nous avons. Avec Allemannsretten nous permettant d'accéder à presque tout, j'ai pensé qu'il pourrait être utile de travailler sur les sentiers et de connaître la région. J'avais raison. Depuis le début des travaux sur les sentiers il y a quelques semaines, nous avons découvert des zones incroyables. Jusqu'à présent, le meilleur est Jonestølen, que je détaillerai dans un autre article. C'était le premier endroit où j'ai fait de la randonnée avec Leif (prononcez la vie) qui travaille sur les sentiers depuis environ 15 ans. Nous sortons généralement sur les sentiers chaque semaine pour construire des sentiers, peindre des balises ou installer des panneaux. J'ai toujours voulu travailler sur les systèmes de sentiers, et je ne peux pas penser à un meilleur endroit pour commencer que la Norvège.", previewValue: "7"},
+
+    // Preview 8
+    { src: `${imageFortySeven}`, classes: "img img-lg-ctr", id: "39", blogEntry: "Nous sommes venus ici samedi pour nous éloigner de l'agitation de Sauda (pause pour rire). La randonnée dure un peu moins de deux heures et serpente à travers les arbres, les fleurs et les myrtilles jusqu'à se terminer à l'hytta. Nous avons eu une pluie légère en montant, mais encore assez pour tremper mon pantalon. Heureusement, il y avait une couverture en laine à l'intérieur, j'ai donc pu faire des pantalons chauds très à la mode.", previewValue: "8"},
+    { src: `${imageFortyEight}`, classes: "img img-lg-ctr", id: "40", blogEntry: "Peu de temps après son arrivée, Camille était à pied d'œuvre pour cueillir des myrtilles. Après quelques heures, il a commencé à pleuvoir ; Camille a continué la cueillette. Au moment où elle a finalement terminé, nous en avions tellement que nous avons dû congeler quelques sacs.", previewValue: "8"},
+    { src: `${imageFortyNine}`, classes: "img img-lg-ctr", id: "41", blogEntry: "J'étais épuisé de la regarder travailler, alors j'ai décidé de faire un plongeon dans le lac de la vallée en contrebas de Jonestølen. Il faisait froid, mais savoir que le feu dans le poêle à bois était prêt à m'accueillir à nouveau dans l'hytta m'a facilité un peu la tâche.", previewValue: "8"},
 ]
