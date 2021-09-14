@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blog_de_famille/static/css/main.85bd0013.chunk.css",
-    "main.js": "/blog_de_famille/static/js/main.4953a746.chunk.js",
-    "main.js.map": "/blog_de_famille/static/js/main.4953a746.chunk.js.map",
+    "main.css": "/blog_de_famille/static/css/main.038562bc.chunk.css",
+    "main.js": "/blog_de_famille/static/js/main.b6a58a61.chunk.js",
+    "main.js.map": "/blog_de_famille/static/js/main.b6a58a61.chunk.js.map",
     "runtime-main.js": "/blog_de_famille/static/js/runtime-main.d81c1f96.js",
     "runtime-main.js.map": "/blog_de_famille/static/js/runtime-main.d81c1f96.js.map",
     "static/js/2.bedebb46.chunk.js": "/blog_de_famille/static/js/2.bedebb46.chunk.js",
     "static/js/2.bedebb46.chunk.js.map": "/blog_de_famille/static/js/2.bedebb46.chunk.js.map",
     "index.html": "/blog_de_famille/index.html",
-    "static/css/main.85bd0013.chunk.css.map": "/blog_de_famille/static/css/main.85bd0013.chunk.css.map",
+    "static/css/main.038562bc.chunk.css.map": "/blog_de_famille/static/css/main.038562bc.chunk.css.map",
     "static/js/2.bedebb46.chunk.js.LICENSE.txt": "/blog_de_famille/static/js/2.bedebb46.chunk.js.LICENSE.txt",
     "static/media/Amdal_1.a136c634.jpg": "/blog_de_famille/static/media/Amdal_1.a136c634.jpg",
     "static/media/Amdal_2.e2619fe3.JPEG": "/blog_de_famille/static/media/Amdal_2.e2619fe3.JPEG",
@@ -61,7 +61,7 @@
   "entrypoints": [
     "static/js/runtime-main.d81c1f96.js",
     "static/js/2.bedebb46.chunk.js",
-    "static/css/main.85bd0013.chunk.css",
-    "static/js/main.4953a746.chunk.js"
+    "static/css/main.038562bc.chunk.css",
+    "static/js/main.b6a58a61.chunk.js"
   ]
 }
