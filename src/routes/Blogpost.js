@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import Carousel from '../components/carousel/Carousel'
 import Image from '../components/image/Image'
 import Text from '../components/text/Text'
 import { Blogpost_Values } from '../utils/AppConstants'
@@ -40,6 +41,7 @@ function Blogpost() {
                     <Text classes="blog-entry" content={blogEntries[i].blogEntry}></Text>
                 </div>
             ))}
+            <Carousel />
         </>
     )
   }
